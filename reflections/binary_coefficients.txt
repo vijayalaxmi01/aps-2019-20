@@ -1,1 +1,15 @@
+Use of dynamic programming to generate binomial coefficients or pascals triangle (Version 1): 
+In this algorithm, 2D array of (n*k) size is used to store the binomial coeffiecints.
+The time complexity of code is O(n*k)
+The Auxiliary space used by code is O(n*k)
+The above algorithm can be used to retrieve the binomial coefficients from 1st to nth rows.
 
+Use of dynamic programming to generate binomial coefficients (Improved Version): 
+In this algorithm, 1D array is used to store the binomial coeffiecints.
+The time complexity of code is O(n*k)
+The Auxiliary space used by code is O(k)
+The above algorithm can be used to retrieve the binomial coefficients of nth row only. 
+
+Recursive function for pascals triangle :
+The stack space used by recursive function is more than that used by above dynamic programming algorithms as the state of the variables at each function call must be saved for computation after the function return call statement. 
+Function call at every recursion adds to the time complexity.
