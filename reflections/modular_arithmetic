@@ -9,3 +9,7 @@ For division,multiplicative inverse is used.
 example : a/b = a * (multpicative inverse of (1/b))
 To find multiplicative inverse of x, we use formula: (x * MMI) % M = 1 
 where M = 10^9 + 7
+
+Fermat's litte theorem :
+(a^p) - a = number divisible by p
+(a^p) congruent to (a mod p)
