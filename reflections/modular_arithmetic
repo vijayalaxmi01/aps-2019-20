@@ -1,0 +1,11 @@
+Applying modulus operation on intermediate results instead of applying it on final results.
+
+Helps for faster computation.
+
+Based on distributive property, Modular arithmetic can be applied on addition, subtraction, multiplication.
+example : (a+b)%c = ((a%c) + (b%c))%c
+
+For division,multiplicative inverse is used.
+example : a/b = a * (multpicative inverse of (1/b))
+To find multiplicative inverse of x, we use formula: (x * MMI) % M = 1 
+where M = 10^9 + 7
