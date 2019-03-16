@@ -1,0 +1,14 @@
+lookup table technique for array query problem : 
+Index with minimum value is stored in lookup table.
+lookup table is a 2D array.
+Space complexity : O(n2)
+Time complexity to populate the lookup table : O(n2)
+Accessing time : O(1)
+
+Square root decomposition for array query problem :
+lookup table is a 1D array where each index stores a index with minimum value in a particular range.
+Space complexity : O(sqrt(n))
+Time complexity to populate the lookup table : O(n2)
+Accessing time : O(sqrt(n))
+Disadvantage : The lookup table stores minimum value of particular range for example minimum value between range 0 to 2, 3 to 5 and 6 to 8.
+Suppose the minimum value between the range 1 to 4 is required then comparision should begin from index 1 to index 4.
